@@ -29,8 +29,8 @@ client.on("ready", () => {
   ); 
   let statuses = [
     `Servers: ${client.guilds.size} Users: ${client.users.size}`,
-    `By Yaxi`,
-    `Yaxi Is Here`
+    `By RAYAN-NOMERCY`,
+    `Developer RAYAN 1991`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -45,7 +45,7 @@ client.on("ready", () => {
 client.on("message", msg => {
   if (msg.content === "REKLAM") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -53,7 +53,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -61,7 +61,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -69,7 +69,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam?") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -91,7 +91,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+var join = client.channels.get("967476391715164181")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -101,14 +101,14 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`https://discord.gg/gNKhDqdkhw `)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id text").send(
+  client.channels.get("997984283404816524").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("");
+client.login("OTk4Njc4NTU5MjM5NDU4ODk2.Gi7t03.g8Elqox60xfFYWVgNE0iF8fmna0Nt9gZbjQKuM");
 
